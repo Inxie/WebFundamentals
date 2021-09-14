@@ -1,0 +1,37 @@
+.background{
+    background-color: white;
+    width: 750px;
+    height: 445px;
+    border: 2px solid black;
+}
+#red1{
+    vertical-align: top;
+    margin-right: 45px;
+    margin-bottom: 45px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+#red2{
+    vertical-align: top;
+    background-color: red;
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+}
+#red3{
+    vertical-align: bottom;
+    margin-right: 45px;
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+#red4{
+    vertical-align: bottom;
+    background-color: red;
+    width: 500px;
+    height: 200px;
+    display: inline-block;
+}
