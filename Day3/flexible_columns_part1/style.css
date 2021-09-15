@@ -1,0 +1,13 @@
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 4;
+    background-color: lightpink;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 20px;
+    margin: 10px;
+}
