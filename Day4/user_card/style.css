@@ -1,0 +1,70 @@
+.all {
+    background-color: white;
+    border: 3px solid lightgray;
+    width: 750px;
+    height: 400px;
+    margin: auto;
+}
+
+.navbar {
+    background-color: teal;
+    width: 750px;
+    height: 120px;
+}
+
+#janedoe {
+    width: 100px;
+    position: relative;
+    left: 40px;
+    bottom: 60px;
+    border: solid 3px lightgray;
+    border-radius: 50%;
+}
+
+h1 {
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-left: 40px;
+    position: relative;
+    margin-top: -60px;
+}
+
+#mapmarker {
+    width: 18px;
+    margin-left: 45px;
+    position: relative;
+    margin-top: -10px;
+}
+
+h3 {
+    font-weight: lighter;
+    font-family: sans-serif;
+    position: relative;
+    margin-top: -28px;
+    margin-left: 80px;
+}
+
+p {
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-left: 45px;
+}
+
+#infomain {
+    position: relative;
+    margin-top: -5px;
+}
+
+#gear {
+    width: 18px;
+    margin-left: 45px;
+    position: relative;
+    margin-top: -5px;
+}
+
+a {
+    font-weight: lighter;
+    font-family: sans-serif;
+    position: relative;
+    margin-left: 8px;
+}
