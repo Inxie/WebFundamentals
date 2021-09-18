@@ -50,15 +50,11 @@ button {
     border: 2px solid lightgray;
 }
 
-.main {
-    display: flex;
-}
-
 .profile {
     border: 2px solid lightgray;
     width: 400px;
     height: 320px;
-    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 #pinkbar {
@@ -117,4 +113,228 @@ button {
     display: flex;
     margin-left: 62px;
     margin-top: -17px;
+}
+
+.education {
+    font-family: sans-serif;
+    border: 2px solid lightgray;
+    height: 180px;
+    width: 400px;
+}
+
+.edunav {
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 400px;
+    margin-top: -19px;
+}
+
+#edu {
+    margin-left: 20px;
+    font-weight: normal;
+    padding-top: 7px;
+}
+
+#codingdojo {
+    font-weight: normal;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+#dates {
+    color: gray;
+    margin-left: 20px;
+}
+
+#dojoexplanation {
+    margin-left: 20px;
+}
+
+.requests {
+    border: 2px solid lightgray;
+    font-family: sans-serif;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.reqnav {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 65px;
+    justify-content: space-evenly;
+}
+
+#num2 {
+    background-color: gray;
+    color: black;
+    border-radius: 50%;
+    font-weight: normal;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 15px;
+}
+
+#conreq {
+    font-weight: normal;
+    margin-top: 22px;
+    margin-left: -4px;
+}
+
+.todd {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+
+.toddleft {
+    display: flex;
+}
+
+#toddepic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.toddright {
+    display: flex;
+}
+
+#acceptcircle {
+    width: 40px;
+    height: 40px;
+}
+
+#closecircle {
+    width: 40px;
+    height: 40px;
+}
+
+.phil {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.philright {
+    display: flex;
+}
+
+#philpic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.philleft {
+    display: flex;
+}
+
+.philright #acceptcircle {
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+.toddright #acceptcircle {
+    margin-right: 5px;
+}
+
+.connav {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 65px;
+    justify-content: space-evenly;
+}
+
+.connections {
+    border: 2px solid lightgray;
+    font-family: sans-serif;
+    width: 250px;
+    height: 355px;
+}
+
+#num500 {
+    background-color: gray;
+    color: black;
+    border-radius: 50%;
+    font-weight: normal;
+    width: 55px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 15px;
+}
+
+#yourcon {
+    font-weight: normal;
+    margin-top: 22px;
+    margin-left: -4px;
+}
+
+#adrienpic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#annepic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#alaynepic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#arrypic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.adrien, .anne, .alayne, .arry {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.arry {
+    margin-bottom: 10px;
+}
+
+.confoot {
+    border-top: 2px solid lightgray;
+    padding-top: 10px;
+}
+
+#vmore {
+    margin-left: 20px;
+}
+
+.main {
+    display: flex;
+    margin-top: 40px;
+}
+
+.column {
+    flex: 50%;
+}
+
+body {
+    margin: auto;
 }
