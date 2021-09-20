@@ -332,16 +332,11 @@ button {
     margin-top: 40px;
 }
 
-.column {
-    flex: 50%;
-}
-
 body {
     margin: auto;
 }
 
 .mainwrapper {
-    width: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
