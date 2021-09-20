@@ -1,0 +1,179 @@
+#nav {
+    background-color: black;
+    width: 60%;
+    font-family: sans-serif;
+    color: white;
+    font-weight: normal;
+    padding: 10px;
+    margin: auto;
+    align-items: center;
+}
+
+#feed {
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.column1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.jdoe {
+    border: 2px solid black;
+    width: 140px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+#userImg {
+    width: 50px;
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+#jdoeName {
+    font-weight: normal;
+}
+
+.neilm {
+    border: 2px solid black;
+    height: 120px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.neilmTop {
+    font-family: sans-serif;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#neilName {
+    font-weight: normal;
+}
+
+.neilRight {
+    display: flex;
+}
+
+#neilLikes {
+    margin-top: 24px;
+}
+
+#addNeil {
+    margin-right: 5px;
+}
+
+#neilInfo {
+    margin-top: -5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#like {
+    background-color: gold;
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+    width: 60px;
+    height: 30px;
+    margin-top: 18px;
+    margin-left: 20px;
+}
+
+.nicholek {
+    border: 2px solid black;
+    height: 120px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.nicholekTop {
+    font-family: sans-serif;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#nicholeName {
+    font-weight: normal;
+}
+
+.nicholeRight {
+    display: flex;
+}
+
+#nicholeLikes {
+    margin-top: 24px;
+}
+
+#addNichole {
+    margin-right: 5px;
+}
+
+#nicholeInfo {
+    margin-top: -5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+
+.jimr {
+    border: 2px solid black;
+    height: 120px;
+    width: 400px;
+    margin-bottom: 20px;
+}
+
+.jimrTop {
+    font-family: sans-serif;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#jimName {
+    font-weight: normal;
+}
+
+.jimRight {
+    display: flex;
+}
+
+#jimLikes {
+    margin-top: 24px;
+}
+
+#addJim {
+    margin-right: 5px;
+}
+
+#jimInfo {
+    margin-top: -5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

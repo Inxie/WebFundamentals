@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="nav">Network</h1>
+    <h1 id="feed">Your Feed</h1>
+    <div class="columns">
+        <div class="column1">
+            <div class="jdoe">
+                <img src="user-circle.png" id="userImg">
+                <a href="#" id="avatar">Add an avatar</a>
+                <h2 id="jdoeName">James Doe</h2>
+            </div>
+        </div>
+        <div class="column2">
+            <div class="neilm">
+                <div class="neilmTop">
+                    <h2 id="neilName">Neil M</h2>
+                    <div class="neilRight">
+                        <p id="neilLikes"><span id="addNeil">0</span>like(s)</p>
+                        <button type="button" id="like" onclick="clickButtonNeil()">Like</button>
+                    </div>
+                </div>
+                <p id="neilInfo">I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+            </div>
+            <div class="nicholek">
+                <div class="nicholekTop">
+                    <h2 id="nicholeName">Nichole K</h2>
+                    <div class="nicholeRight">
+                        <p id="nicholeLikes"><span id="addNichole">0</span>like(s)</p>
+                        <button type="button" id="like" onclick="clickButtonNichole()">Like</button>
+                    </div>
+                </div>
+                <p id="nicholeInfo">Just finished my <a href="#">next comic</a>, check it out.</p>
+            </div>
+            <div class="jimr">
+                <div class="jimrTop">
+                    <h2 id="jimName">Jim R</h2>
+                    <div class="jimRight">
+                        <p id="jimLikes"><span id="addJim">0</span>like(s)</p>
+                        <button type="button" id="like" onclick="clickButtonJim()">Like</button>
+                    </div>
+                </div>
+                <p id="jimInfo">I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
