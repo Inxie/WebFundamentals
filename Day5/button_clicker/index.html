@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1 id="dojonary">Dojonary</h1>
+        <input type="text" id="search">
+        <button type="button" id="log" onclick="logout(this)">Login</button>
+    </div>
+    <div class="mainwrapper">
+        <div class="main">
+            <div class="column">
+                <div class="ninja1">
+                    <div class="column1">
+                        <h1 id="ninja">ninja</h1>
+                        <h3 id="noun">noun</h3>
+                        <p id="plural">Plural: <span id="plural2">ninjas</span></p>
+                        <button type="button" id="thirteen" onclick="alert('Ninja was liked')">13 likes</button>
+                    </div>
+                    <div class="column1">
+                        <p id="definition1">A practitioner skilled in the <a href="#" id="japanese">Japanese</a> art of <a href="#" id="ninjutsu">ninjutsu</a>.</p>
+                    </div>
+                </div>
+                <div class="ninja2">
+                    <div class="column1">
+                        <h1 id="ninja">ninja</h1>
+                        <h3 id="noun">noun</h3>
+                        <p id="plural">Plural: <span id="plural2">ninjas</span></p>
+                        <button type="button" id="thirtyseven" onclick="alert('Ninja was liked')"">37 likes</button>
+                    </div>
+                    <div class="column1">
+                        <p id="definition2">A <a href="#" id="programmer">programmer</a> who breaks down problems with <a href="#" id="zen">zen</a>-like focus.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="dojonary">
+                    <h2 id="defined">Dojonary is defined by <span id="you">YOU</span></h2>
+                    <button type="button" id="adddefinition" onclick="hide(this)">Add Definition</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
