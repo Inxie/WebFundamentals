@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="nav">
+        <div class="leftnav">
+            <h1 id="profile">Profile</h1>
+            <ul class="navlist">
+                <li>Home</li>
+                <li>My Profile</li>
+                <li>Find Connections</li>
+            </ul>
+        </div>
+        <div class="rightnav">
+            <button>Sign Out</button>
+        </div>
+    </div>
+    <div class="mainwrapper">
+        <div class="main">
+            <div class="column">
+                <div class="profile">
+                    <div id="pinkbar">
+                        <img src="jane-m.jpg" alt="photo of Jane M" id="janempic">
+                    </div>
+                    <div class="profilecontent">
+                        <h1 id="janem">Jane M</h1>
+                        <img src="map-marker.png" alt="map marker icon" id="mapmarker">
+                        <p id="seattle">Seattle</p>
+                        <p id="titles">Developer | Engineer | Problem Solver</p>
+                        <p id="explanation">Master of shadows and the Internet!</p>
+                        <img src="gear.png" alt="gear icon" id="gearicon">
+                        <a href="#" id="editprofile" onClick="changeName()">edit profile</a>
+                    </div>
+                </div>
+                <div class="education">
+                    <div class="edunav">
+                        <h3 id="edu">Education</h3>
+                    </div>
+                    <div class="edumain">
+                        <h2 id="codingdojo">Coding Dojo - Full Stack Bootcamp</h2>
+                        <p id="dates">Dec 2019 - Mar 2020</p>
+                        <p id="dojoexplanation">Triple black belt in Python, MERN, and C#...</p>
+                    </div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="requests">
+                    <div class="reqnav">
+                        <h3 id="num2">2</h3>
+                        <h3 id="conreq">Connection Requests</h3>
+                    </div>
+                    <div class="toddphil">
+                        <div class="todd">
+                            <div class="toddleft">
+                                <img src="todd-s.jpg" alt="photo of Todd E" id="toddepic">
+                                <p id="toddname">Todd E</p>
+                            </div>
+                            <div class="toddright">
+                                <img src="accept-circle.png" alt="accept circle" id="acceptcircle" onClick="removeLine1()">
+                                <img src="close-circle.png" alt="close circle" id="closecircle" onClick="removeLine1()">
+                            </div>
+                        </div>
+                        <div class="phil">
+                            <div class="philleft">
+                                <img src="phil-s.jpg" alt="photo of Phil S" id="philpic">
+                                <p id="philname">Phil K</p>
+                            </div>
+                            <div class="philright">
+                                <img src="accept-circle.png" alt="accept circle" id="acceptcircle" onClick="removeLine2()">
+                                <img src="close-circle.png" alt="close circle" id="closecircle" onClick="removeLine2()">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="connections">
+                    <div class="connav">
+                        <h3 id="num500">500+</h3>
+                        <h3 id="yourcon">Your Connections</h3>
+                    </div>
+                    <div class="allcons">
+                        <div class="adrien">
+                            <img src="adrien-s.jpg" alt="photo of Adrien D" id="adrienpic">
+                            <p id="adrienname">Adrien D</p>
+                        </div>
+                        <div class="anne">
+                            <img src="anne-s.jpg" alt="photo of Anne J" id="annepic">
+                            <p id="annename">Anne J</p>
+                        </div>
+                        <div class="alayne">
+                            <img src="alayne-s.jpg" alt="photo of Alayne T" id="alaynepic">
+                            <p id="alaynename">Alayne T</p>
+                        </div>
+                        <div class="arry">
+                            <img src="arry-s.jpg" alt="photo of Arry Y" id="arrypic">
+                            <p id="arryname">Arry Y</p>
+                        </div>
+                        <div class="confoot">
+                            <a href="#" id="vmore">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

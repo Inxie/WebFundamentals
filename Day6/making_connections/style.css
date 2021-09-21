@@ -1,0 +1,343 @@
+.nav {
+    background-color: black;
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-evenly;
+    height: 60px;
+}
+
+.leftnav {
+    display: flex;
+}
+
+#profile {
+    font-weight: normal;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+#profile:hover {
+    color: lightgray;
+}
+
+.navlist {
+    list-style: none;
+    display: flex;
+    font-family: sans-serif;
+    color: lightgray;
+}
+
+.navlist li {
+    margin: 8px 10px 10px 10px;
+}
+
+.navlist li:hover {
+    color: white;
+}
+
+button {
+    background-color: deeppink;
+    color: white;
+    font-family: sans-serif;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.rightnav button:hover {
+    color: lightgray;
+    border: 2px solid lightgray;
+}
+
+.profile {
+    border: 2px solid lightgray;
+    width: 400px;
+    height: 320px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+}
+
+#pinkbar {
+    background-color: deeppink;
+    height: 80px;
+    width: 400px;
+}
+
+#janempic {
+    width: 80px;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+    top: 40px;
+    left: 30px;
+}
+
+#janem {
+    font-family: sans-serif;
+    font-weight: normal;
+    margin-left: 35px;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+#mapmarker {
+    width: 15px;
+    margin-left: 40px;
+    display: flex;
+}
+
+#seattle {
+    display: flex;
+    font-family: sans-serif;
+    margin-left: 70px;
+    margin-top: -21px;
+    font-size: 20px;
+}
+
+#titles, #explanation {
+    font-family: sans-serif;
+    margin-left: 35px;
+    font-size: 15px;
+}
+
+#gearicon {
+    width: 15px;
+    margin-left: 35px;
+    display: flex;
+}
+
+#editprofile {
+    font-family: sans-serif;
+    font-size: 14px;
+    margin-top: -5px;
+    display: flex;
+    margin-left: 62px;
+    margin-top: -17px;
+}
+
+.education {
+    font-family: sans-serif;
+    border: 2px solid lightgray;
+    height: 180px;
+    width: 400px;
+}
+
+.edunav {
+    background-color: black;
+    color: white;
+    height: 35px;
+    width: 400px;
+    margin-top: -19px;
+}
+
+#edu {
+    margin-left: 20px;
+    font-weight: normal;
+    padding-top: 7px;
+}
+
+#codingdojo {
+    font-weight: normal;
+    font-size: 22px;
+    margin-left: 20px;
+}
+
+#dates {
+    color: gray;
+    margin-left: 20px;
+}
+
+#dojoexplanation {
+    margin-left: 20px;
+}
+
+.requests {
+    border: 2px solid lightgray;
+    font-family: sans-serif;
+    width: 250px;
+    height: 200px;
+    margin-bottom: 40px;
+}
+
+.reqnav {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 65px;
+    justify-content: space-evenly;
+}
+
+#num2 {
+    background-color: gray;
+    color: black;
+    border-radius: 50%;
+    font-weight: normal;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 15px;
+}
+
+#conreq {
+    font-weight: normal;
+    margin-top: 22px;
+    margin-left: -4px;
+}
+
+.todd {
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-evenly;
+}
+
+.toddleft {
+    display: flex;
+}
+
+#toddepic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.toddright {
+    display: flex;
+}
+
+#acceptcircle {
+    width: 40px;
+    height: 40px;
+}
+
+#closecircle {
+    width: 40px;
+    height: 40px;
+}
+
+.phil {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.philright {
+    display: flex;
+}
+
+#philpic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.philleft {
+    display: flex;
+}
+
+.philright #acceptcircle {
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+.toddright #acceptcircle {
+    margin-right: 5px;
+}
+
+.connav {
+    display: flex;
+    background-color: black;
+    color: white;
+    height: 65px;
+    justify-content: space-evenly;
+}
+
+.connections {
+    border: 2px solid lightgray;
+    font-family: sans-serif;
+    width: 250px;
+    height: 355px;
+}
+
+#num500 {
+    background-color: gray;
+    color: black;
+    border-radius: 50%;
+    font-weight: normal;
+    width: 55px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    margin-top: 15px;
+}
+
+#yourcon {
+    font-weight: normal;
+    margin-top: 22px;
+    margin-left: -4px;
+}
+
+#adrienpic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#annepic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#alaynepic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+#arrypic {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.adrien, .anne, .alayne, .arry {
+    display: flex;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.arry {
+    margin-bottom: 10px;
+}
+
+.confoot {
+    border-top: 2px solid lightgray;
+    padding-top: 10px;
+}
+
+#vmore {
+    margin-left: 20px;
+}
+
+.main {
+    display: flex;
+    margin-top: 40px;
+}
+
+body {
+    margin: auto;
+}
+
+.mainwrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
