@@ -1,0 +1,148 @@
+body {
+    margin: auto;
+}
+
+.navMain {
+    background-color: lightskyblue;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+#navLeft {
+    margin-left: 80px;
+}
+
+.navRight {
+    display: flex;
+    padding-top: 11px;
+    margin-right: 80px;
+}
+
+#burbank, #chicago {
+    margin-right: 30px;
+}
+
+.bodyMain {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.topMain {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+#topLeft {
+    font-weight: normal;
+}
+
+.topRight {
+    display: flex;
+    flex-direction: row;
+    padding-top: 18px;
+}
+
+#show {
+    margin-right: 13px;
+}
+
+.tempChoice {
+    margin-top: 14px;
+}
+
+.rowMain {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 80px;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.forecast {
+    background-color: lightgray;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+#today, #tomorrow, #friday, #saturday {
+    text-align: center;
+    font-weight: normal;
+    font-size: x-large;
+}
+
+#someRain, .someSun, #someClouds {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#someRainText, .someSunText, #someCloudsText {
+    text-align: center;
+}
+
+.tempListed {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+#hotTemp1, #hotTemp2, #hotTemp3, #hotTemp4 {
+    color: red;
+    font-size: larger;
+}
+
+#coldTemp1, #coldTemp2, #coldTemp3, #coldTemp4 {
+    color: blue;
+    font-size: larger;
+}
+
+.cookieBanner {
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 80px;
+    margin-right: 80px;
+    border: 2px solid black;
+    align-items: center;
+    position: fixed;
+    top: 570px;
+}
+
+#cookie {
+    width: 75px;
+    height: 75px;
+}
+
+#stop {
+    font-size: larger;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+#cookieExplanation {
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+#accept {
+    width: 100px;
+    height: 30px;
+    background-color: lightskyblue;
+    border: 2px solid black;
+    box-shadow: 2px 2px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
